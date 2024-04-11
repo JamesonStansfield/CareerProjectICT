@@ -1,0 +1,51 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: rgb(251, 255, 231);
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.name {
+    text-align: center;
+    font-size: 10px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+}
+
+.tab a {
+    text-decoration: none;
+    color: #343A40;
+    background-color: none;
+}
+
+.tab {
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #7fcebf;
+    box-shadow: 3px 3px #546663;
+    transition: 0.5s ease;
+}
+
+.tab:hover{
+    background-color: #448886;
+}
+
+.citations {
+    text-align: center;
+    padding: 30px;
+}
