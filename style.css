@@ -49,3 +49,9 @@ body {
     text-align: center;
     padding: 30px;
 }
+
+.video {
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
